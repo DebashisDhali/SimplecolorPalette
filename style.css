@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* This app generated Color palatte */
+
+:root{
+    --primary1:#142111; --primary2:#443101; --primary3:#512225; --primary4:#422325;
+}
+
+body {
+    font-size:62.5%;
+  
+}
+
+h1{
+    font-size: 2rem;
+}
+.title_container {
+    height: 5rem;
+    color:white;
+    background:linear-gradient(rgba(255, 0, 0, 0.782),rgba(0, 128, 0, 0.788),rgba(255, 255, 0, 0.777));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button_container {
+    height: 11rem;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 2.5rem;
+    width: 10rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #666;
+    text-align: center;
+    color:white;
+}
+
+button:hover {
+    background-color: rgba(137, 43, 226, 0.712);
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgba(255, 228, 196, 0.697);
+    color:black;
+}
+
+.color_container {
+    height: calc(75vh - 4rem);
+    display: grid;
+    grid-template-rows: 5fr 4fr 3fr 2fr;
+    /* background-color: blueviolet; */
+    padding: 1rem;
+}
+
+.color1 {
+    background-color: red;
+}
+
+.color2 {
+    background-color: blue;
+}
+
+.color3 {
+    background-color: yellow;
+}
+
+.color4 {
+    background-color: green;
+}
+
+#id1,#id2,#id3,#id4{
+    font-size: 1.5rem;
+    background-color: white;
+    width:6rem;
+   margin: .2rem;
+}
+@media(max-width:786px) {
+    .title_container h1 {
+        font-size: 24px;
+    }
+    button{
+        font-size: 14px;
+        width:8rem;
+    }
+}
